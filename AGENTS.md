@@ -17,3 +17,5 @@ Este é um projeto feito em **React** usando **Vite** na versão mais recentes,E
 
 -**Importante:** sempre que fizer um commit ,atualize o arquivo `BACKLOG.md` com o processo atual do projeto.
 
+## Testes
+**Nunca** execute e nem faça testes automatizados neste projeto.
