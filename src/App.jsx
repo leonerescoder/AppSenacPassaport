@@ -56,10 +56,14 @@ function App() {
       {currentPage === 'home' && (
         <div className="home-container">
           <div className="home-logo-area">
-            {/* Minimal logo placeholder using Senac style text */}
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" 
+              alt="Logo Senac" 
+              style={{ width: '120px', marginBottom: '1.5rem', filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.2))' }} 
+            />
             <h1 className="home-title">Casa <span>Aberta</span></h1>
           </div>
-          <p className="home-subtitle">Um dia inteiro de aprendizado prático no Senac</p>
+          <p className="home-subtitle" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Bem vindo ao Passaporte</p>
           <button className="btn-primary" onClick={() => setIsModalOpen(true)}>
             Ver oficinas
           </button>
